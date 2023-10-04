@@ -20,3 +20,8 @@
   rm -rf build/
 ```
 
+What happens when the executable is linked statically?  Does Valgrind still detect those same bugs?
+Why or why not.
+
+Yes, if the file is linked/mentioned in the cmakelists.txt file as a source file.
+

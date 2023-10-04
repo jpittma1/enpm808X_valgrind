@@ -1,5 +1,8 @@
 #pragma once
 
+#ifndef ANALAG_SENSOR_HPP
+#define ANALAG_SENSOR_HPP
+
 #include <iostream>
 
 class AnalogSensor
@@ -11,3 +14,5 @@ public:
 private:
     unsigned int mSamples;
 };
+
+#endif
