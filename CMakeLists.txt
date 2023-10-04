@@ -17,3 +17,4 @@ execute_process(COMMAND cmake -E create_symlink
 # Just a simple app               
 add_subdirectory(app)
 
+
